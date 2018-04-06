@@ -1,0 +1,13 @@
+task-id|taskID
+task-label|taskLabel
+ques-name-col|1
+ques-id-col|1
+ques-text-col|1
+image|0
+text|0
+mcq|0
+oaq|0
+desc-main-content|Task descriptions
+inst-main-content|Task instructions
+exam-main-content|Task examples
+note-main-content|Task notes

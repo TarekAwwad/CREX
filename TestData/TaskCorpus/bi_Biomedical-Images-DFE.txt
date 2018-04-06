@@ -1,0 +1,201 @@
+_unit_id,class,image_url,Option_1,Option_2,Option_3
+660800040,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2199-10-87-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800041,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2121-11-22-2-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800042,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1475-2867-9-27-1-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800043,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1475-2875-9-162-2-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800044,[DVOR] Other organs,http://fast.hevs.ch/images/subfigures/1471-2148-8-48-11-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800045,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2148-5-16-2-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800046,[GCHE] Chemical structure,http://fast.hevs.ch/images/subfigures/1471-2164-8-53-1-10.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800047,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1471-2407-6-32-3-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800048,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2105-11-104-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800049,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1479-5876-3-22-6-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800050,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1465-9921-11-138-7-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800051,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1476-7120-8-48-8-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800052,[DMTR] Transmission microscopy,http://fast.hevs.ch/images/subfigures/1477-3155-3-6-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800053,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1742-4690-5-107-6-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800054,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1752-0509-3-113-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800055,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2407-10-314-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800056,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-10-314-2-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800057,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2148-5-24-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800058,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1479-5876-9-182-2-9.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800059,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1743-0003-6-10-2-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800060,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2288-10-28-1-12.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800061,[DMTR] Transmission microscopy,http://fast.hevs.ch/images/subfigures/1471-213X-11-9-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800062,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1479-0556-6-13-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800063,[DMEL] Electron microscopy,http://fast.hevs.ch/images/subfigures/1471-2229-11-128-8-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800064,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-8-416-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800065,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2202-11-9-5-9.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800066,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/gb-2009-10-12-r136-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800067,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1743-8977-7-15-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800068,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2148-11-13-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800069,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/bcr2833-6-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800070,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1477-7525-4-18-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800071,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2148-10-357-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800072,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2202-7-2-2-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800073,[DMTR] Transmission microscopy,http://fast.hevs.ch/images/subfigures/1476-4598-8-110-5-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800074,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1476-4598-10-139-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800075,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-6-57-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800076,[DVOR] Other organs,http://fast.hevs.ch/images/subfigures/1471-2202-11-62-7-15.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800077,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2156-4-S1-S41-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800078,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1471-2121-10-83-4-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800079,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1749-7922-4-45-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800080,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1472-6750-6-51-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800081,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1479-5876-9-176-1-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800082,[GGEN] Gene sequence,http://fast.hevs.ch/images/subfigures/1471-2148-10-286-2-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800083,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1471-2261-5-6-2-12.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800084,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2121-8-36-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800085,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2261-3-4-8-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800086,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2199-9-5-4-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800087,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2105-9-48-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800088,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2229-9-58-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800089,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-5-30-6-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800090,[GSCR] Screenshots,http://fast.hevs.ch/images/subfigures/gb-2006-7-8-404-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800091,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2199-5-9-1-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800092,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2164-11-6-2-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800093,[DVOR] Other organs,http://fast.hevs.ch/images/subfigures/1749-8090-5-53-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800094,"[DVDM] Dermatology, skin",http://fast.hevs.ch/images/subfigures/1756-8722-1-7-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800095,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1744-9081-6-70-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800096,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1471-2202-10-68-3-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800097,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1471-2199-8-106-6-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800098,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2202-9-27-12-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800099,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1744-9081-7-1-4-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800100,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2105-9-301-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800101,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1471-2148-8-328-7-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800102,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/DRP2010-212439-8.002.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800103,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1471-2105-8-481-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800104,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/cc5062-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800105,[DVOR] Other organs,http://fast.hevs.ch/images/subfigures/1756-9966-29-68-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800106,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1475-2840-8-56-1-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800107,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2407-9-158-5-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800108,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2407-10-468-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800109,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1471-2202-4-16-9-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800110,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1471-2202-11-72-6-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800111,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-5-30-6-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800112,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-9-S4-S13-7-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800113,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1756-6614-3-1-3-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800114,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2180-9-187-3-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800115,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2199-8-32-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800116,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2164-11-704-3-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800117,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1471-2121-7-32-4-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800118,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1476-4598-4-39-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800119,[GSCR] Screenshots,http://fast.hevs.ch/images/subfigures/1465-9921-8-73-3-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800120,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1471-213X-7-69-2-12.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800121,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2105-9-343-8-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800122,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2180-10-56-5-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800123,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1749-8104-6-32-4-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800124,[GSCR] Screenshots,http://fast.hevs.ch/images/subfigures/DRP2010-405262-2.001.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800125,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1472-6785-10-7-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800126,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1477-7819-9-58-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800127,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1465-9921-8-73-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800128,[DMTR] Transmission microscopy,http://fast.hevs.ch/images/subfigures/1471-2350-6-26-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800129,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1475-2875-8-35-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800130,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2229-10-269-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800131,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1471-2121-12-1-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800132,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1742-4690-6-112-4-11.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800133,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2407-8-247-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800134,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2229-9-44-4-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800135,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2091-2-6-2-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800136,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-11-539-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800137,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1476-7120-3-6-4-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800138,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/gb-2004-5-3-r18-4-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800139,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1472-6807-10-23-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800140,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2350-8-26-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800141,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1476-072X-7-58-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800142,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1744-9081-6-70-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800143,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1465-9921-12-28-3-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800144,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/ar3103-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800145,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1751-0147-52-14-5-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800146,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2415-9-9-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800147,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1742-2094-5-41-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800148,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2148-9-276-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800149,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1742-9994-7-31-25-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800150,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2202-9-118-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800151,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2105-10-S6-S23-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800152,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1741-7015-6-1-2-9.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800153,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2121-5-32-9-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800154,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1471-2350-11-171-2-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800155,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2164-10-134-3-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800156,[DMEL] Electron microscopy,http://fast.hevs.ch/images/subfigures/1471-2148-11-125-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800157,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/DRP2010-168248-4.001.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800158,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1742-4682-2-42-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800159,[DSEC] Electrocardiography,http://fast.hevs.ch/images/subfigures/1472-6882-8-5-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800160,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2121-11-11-2-13.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800161,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1477-7819-5-6-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800162,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2105-11-314-8-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800163,[GGEN] Gene sequence,http://fast.hevs.ch/images/subfigures/gb-2006-7-12-r123-4-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800164,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1465-9921-7-34-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800165,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1742-4690-6-57-6-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800166,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2180-9-30-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800167,[GGEN] Gene sequence,http://fast.hevs.ch/images/subfigures/1741-7007-8-26-3-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800168,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1471-213X-7-69-2-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800169,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1472-6769-9-1-4-14.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800170,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2105-11-104-2-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800171,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1477-7827-6-60-1-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800172,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2164-11-5-3-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800173,[D3DR] 3D reconstructions,http://fast.hevs.ch/images/subfigures/1472-6769-6-2-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800174,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2105-4-31-4-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800175,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1475-2875-7-249-2-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800176,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2121-5-32-9-12.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800177,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2202-8-60-7-10.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800178,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2164-7-12-9-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800179,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/12178_2009_9056_Fig11_HTML-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800180,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-11-276-7-11.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800181,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2148-4-29-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800182,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1743-0003-5-30-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800183,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2180-11-50-2-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800184,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2148-7-166-7-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800185,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2121-8-14-1-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800186,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1471-2148-8-254-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800187,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2091-11-41-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800188,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2164-11-32-4-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800189,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1750-1326-6-48-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800190,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1471-2121-7-32-4-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800191,[DRUS] Ultrasound,http://fast.hevs.ch/images/subfigures/1749-8104-4-18-4-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800192,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1465-9921-11-164-2-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800193,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2229-9-145-4-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800194,[GSCR] Screenshots,http://fast.hevs.ch/images/subfigures/1471-2105-8-416-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800195,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1465-9921-11-64-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800196,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2105-7-478-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800197,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1471-2202-10-20-1-6.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800198,[GCHE] Chemical structure,http://fast.hevs.ch/images/subfigures/1743-8454-7-11-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800199,[GFLO] Flowcharts,http://fast.hevs.ch/images/subfigures/1742-4690-5-112-3-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800200,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2091-10-18-2-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800201,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1742-4690-5-57-6-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800202,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1423-0127-17-50-8-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800203,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1475-2867-8-3-6-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800204,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1465-9921-6-27-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800205,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1472-6807-10-12-9-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800206,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2202-11-102-1-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800207,[GSCR] Screenshots,http://fast.hevs.ch/images/subfigures/1471-2105-11-276-6-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800208,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1472-6750-3-10-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800209,[DRCT] Computerized Tomography,http://fast.hevs.ch/images/subfigures/1748-717X-2-32-3-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800210,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1471-2164-8-384-4-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800211,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2148-7-166-3-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800212,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1477-3155-8-25-5-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800213,[DRMR] Magnetic Resonance,http://fast.hevs.ch/images/subfigures/1471-213X-7-89-3-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800214,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1477-5751-4-5-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800215,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2105-8-412-2-16.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800216,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1471-2407-10-91-2-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800217,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1471-2105-8-412-2-24.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800218,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1471-2369-6-4-7-8.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800219,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1472-6750-9-101-9-9.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800220,[GNCP] Non-clinical photos,http://fast.hevs.ch/images/subfigures/1756-6606-2-38-8-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800221,[DMFL] Fluorescence microscopy,http://fast.hevs.ch/images/subfigures/1746-4811-6-15-4-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800222,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1742-4690-5-107-6-7.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800223,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2318-9-56-2-10.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800224,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2202-2-11-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800225,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1471-2199-9-65-4-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800226,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2105-9-48-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800227,[GSYS] System overviews,http://fast.hevs.ch/images/subfigures/1746-6148-2-11-9-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800228,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2105-10-407-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800229,[GGEN] Gene sequence,http://fast.hevs.ch/images/subfigures/1742-4690-5-110-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800230,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2199-8-100-2-4.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800231,[GTAB] Tables and forms,http://fast.hevs.ch/images/subfigures/1471-2199-3-2-5-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800232,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2091-11-23-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800233,[DMLI] Light microscopy,http://fast.hevs.ch/images/subfigures/1465-9921-11-67-1-2.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800234,[GHDR] Hand-drawn sketches,http://fast.hevs.ch/images/subfigures/1471-2105-6-71-3-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800235,"[GFIG] Statistical figures, graphs, charts",http://fast.hevs.ch/images/subfigures/1471-2202-7-58-1-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800236,[GGEN] Gene sequence,http://fast.hevs.ch/images/subfigures/1471-2164-11-61-8-3.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800237,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2407-4-23-4-1.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800238,"[DRXR] X-Ray, 2D Radiography",http://fast.hevs.ch/images/subfigures/1471-2148-4-24-4-5.jpg,"No, wrong category","Yes, perfect classification",Compound image
+660800239,"[GGEL] Chromatography, Gel",http://fast.hevs.ch/images/subfigures/1471-2407-10-134-5-13.jpg,"No, wrong category","Yes, perfect classification",Compound image

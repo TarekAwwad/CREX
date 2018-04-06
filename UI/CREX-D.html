@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Project Crowd - Configuration Panel</title>
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/logo.png">
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' type='text/css'>
+    <link rel='stylesheet' href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>-->
+
+    <!--necessary scripts and plugins-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/evenfly.js"></script>
+    <script src="js/create_config.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+    <script>
+        function EnDis(cb_id, div_id, neg) {
+            cb = document.getElementById(cb_id)
+            if (Boolean(neg)) {
+                if (cb.checked) {
+                    $(div_id).addClass('disabledbutton');
+                }
+                else {
+                    $(div_id).removeClass('disabledbutton');
+                }
+            }
+            else {
+                if (cb.checked) {
+                    $(div_id).removeClass('disabledbutton');
+                }
+                else {
+                    $(div_id).addClass('disabledbutton');
+                }
+            }
+        }
+    </script>
+    <script>
+        function changeAction(cb_id) {
+            console.log(document.getElementById(cb_id).value)
+            document.getElementById('main').action = document.getElementById(cb_id).value;
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div id="header" class="row">
+        <div class="col-sm-1">
+            <a href="./index.html"><img class="propic" src="img/logo.png"></a>
+        </div>
+        <div class="col-sm-1">
+            <h1>Project </h1>
+            <h1>Crowd </h1>
+        </div>
+    </div>
+    <hr class="firsthr">
+
+    <form id="main" method="get">
+        <div id="general" class="row mobmid">
+
+            <div><h3>General configurations </h3></div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    Basic configuration
+                    <div class="material-switch pull-right">
+                        <input id="custom" name="custom" type="checkbox" value="True"
+                               onchange="EnDis(this.id, '#custom-config', '')"/>
+                        <label for="custom" class="label-primary"></label>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-sm-12">
+                    <div id="custom-config" class="disabledbutton">
+
+                        <div class="list-group-item">
+                            <div>
+                                Sample size - doc.
+                                <div class="pull-right"><input name="sample-s" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                Distance metric
+                                <select name="distance-metric" class="selectpicker pull-right" data-width="133px">
+                                    <option>cosine</option>
+                                    <option>euclidean</option>
+                                </select>
+                            </div>
+                            <br/>
+                            <div>
+                                Vectorize
+                                <div class="material-switch pull-right"><input id="vectorize" name="vectorize"
+                                                                               type="checkbox" value="True"/>
+                                    <label for="vectorize" class="label-primary"></label>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                Process
+                                <div class="material-switch pull-right"><input id="process" name="process"
+                                                                               type="checkbox" value="True"
+                                                                               onchange="EnDis(this.id, '#preprocessed', 'true'); EnDis(this.id, '#conf-process', '')"/>
+                                    <label for="process" class="label-primary"></label>
+                                </div>
+                            </div>
+                            <br/>
+                            <div id="preprocessed">
+                                Preprocessed data
+                                <div class="pull-right"><input name="preprocessed-location" type="text"><br/></div>
+                            </div>
+                            <div id="conf-process" class="disabledbutton">
+                                <br/>
+                                <div>
+                                    Process Doc2vec
+                                    <div class="material-switch pull-right"><input id="process-doc2vec"
+                                                                                   name="process-doc2vec"
+                                                                                   type="checkbox"
+                                                                                   value="True"/>
+                                        <label for="process-doc2vec" class="label-primary"></label>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div>
+                                    Process TFIDF
+                                    <div class="material-switch pull-right"><input id="process-tfidf"
+                                                                                   name="process-tfidf"
+                                                                                   type="checkbox"
+                                                                                   value="True"/>
+                                        <label for="process-tfidf" class="label-primary"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+
+                            <div>
+                                Different custering data
+                                <div class="material-switch pull-right"><input id="diffdata" name="diffdata"
+                                                                               type="checkbox"
+                                                                               value="True"/>
+                                    <label for="diffdata" class="label-primary"></label>
+                                </div>
+                            </div>
+                            <br/>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    Advanced configuration
+                    <div class="material-switch pull-right"><input id="advanced" name="advanced" type="checkbox"
+                                                                   value="True"
+                                                                   onchange="EnDis(this.id, '#advanced-config', '')"/>
+                        <label for="advanced" class="label-primary"></label>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-sm-12">
+                    <div id="advanced-config" class="disabledbutton">
+                        <div class="list-group-item">
+                            <div>
+                                n_clustering_processes
+                                <div class="pull-right"><input name="n-clustering-processes" size="30" type="text"
+                                                               value="1"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                n_evaluation_processes
+                                <div class="pull-right"><input name="n-evaluation-processes" size="30" type="text"
+                                                               value="4"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                location
+                                <div class="pull-right"><input name="location" size="30" type="text" value="'local'"
+                                                               disabled><br/>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                indexing
+                                <div class="pull-right"><input name="indexing" size="30" type="text" value="'date'"
+                                                               disabled><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                Result folder
+                                <div class="pull-right"><input name="result-folder" size="30" type="text"
+                                                               value=""><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                Raw data folder
+                                <div class="pull-right"><input name="raw-data-folder" size="30" type="text"
+                                                               value=""><br/>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                Raw clustering data folder
+                                <div class="pull-right"><input name="raw-clustering-data-folder" size="30" type="text"
+                                                               value=""><br/></div>
+                            </div>
+                            <br/>
+                            <!--<div>-->
+                                <!--Pre processed data folder-->
+                                <!--<div class="pull-right"><input name="pre-processed-data-folder" size="30" type="text"-->
+                                                               <!--value=""><br/></div>-->
+                            <!--</div>-->
+                            <!--<br/>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div id="sampling-evaluating" class="row mobmid">
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    Sample clusterings
+                    <div class="material-switch pull-right"><input id="sample" name="sample" type="checkbox"
+                                                                   value="True"
+                                                                   onchange="EnDis(this.id, '#conf-sample', '')"/>
+                        <label for="sample" class="label-primary"></label>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-sm-12">
+                    <div id="conf-sample" class="disabledbutton">
+                        <div class="list-group-item">
+                            <div>
+                                Sampling fitness
+                                <select name="sampling-fitness" class="selectpicker pull-right" data-width="133px">
+                                    <option>RMSE</option>
+                                    <option>MinMax</option>
+                                </select>
+                            </div>
+                            <br/>
+                            <div>
+                                Min samples per clust.
+                                <div class="pull-right"><input name="min-samples-per-cluster" type="text"><br/>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                Max sample size
+                                <div class="pull-right"><input name="max-sample-size" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                Max iterations
+                                <div class="pull-right"><input name="max-sampling-iteration" type="text"><br/></div>
+                            </div>
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    Evaluate
+                    <div class="material-switch pull-right"><input id="evaluate" name="evaluate" type="checkbox"
+                                                                   value="True"
+                                                                   onchange="EnDis(this.id, '#conf-evaluate', '')"/>
+                        <label for="evaluate" class="label-primary"></label>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-sm-12">
+                    <div id="conf-evaluate" class="disabledbutton">
+                        <div class="list-group-item">
+                            <div>
+                                Clustering
+                                <div class="pull-right">
+                                    Kmeans <input name="eval-clustering-km" type="checkbox" value="kmeans"> |
+                                    DBSCAN <input name="eval-clustering-db" type="checkbox" value="dbscan"> |
+                                    Agglomerative<input name="eval-clustering-ag" type="checkbox" value="agg">
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                Vectorizing
+                                <div class="pull-right">
+                                    TFIDF <input name="eval-vectorizing-tfidf" type="checkbox" value="tfidf"> |
+                                    Doc2vec <input name="eval-vectorizing-doc2vec" type="checkbox" value="doc2vec"> |
+                                    PACT<input name="eval-vectorizing-pact" type="checkbox" disabled>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                Evaluation measure
+                                <div class="pull-right">
+                                    Hom-Com-V <input name="eval-measures-hcv" type="checkbox" value="hcv"> |
+                                    Silhouette <input name="eval-measures-sil" type="checkbox" value="sil"> |
+                                    Co-oc<input name="eval-measures-coc" type="checkbox" value="coc">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="firsthr">
+
+        <div id="clusterer" class="row mobmid">
+            <h3>Clustering algorithms</h3>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    K-MEANS
+                    <div class="material-switch pull-right">
+                        <input id="km" name="km" type="checkbox" value="kmeans"
+                               onchange="EnDis(this.id, '#conf1', '')"/>
+                        <label for="km" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf1" class="disabledbutton">
+                    <h4>K-means configuration</h4>
+                    <div class="list-group-item">
+                        <div>
+                            Number of clusters
+                            <div id="kmeans-k-min-max" class="pull-right">
+                                <input size="5" name="kmeans-k-min" type="text" placeholder="Min">
+                                <input size="5" name="kmeans-k-max" type="text" placeholder="Max">
+                                <input size="5" name="kmeans-k-step" type="text" placeholder="Step">
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="kmeans-python" name="kmeans-python" class="hidden"
+                                       value="True" data-toggle="collapse"
+                                       data-target="#conf-kmeans-python"
+                                       onchange="EnDis(this.id, '#kmeans-k-min-max', 'true')"></label>
+                        </div>
+
+                        <div id="conf-kmeans-python" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="kmeans-k" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>Use Minibatch
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="kmeans-mb" name="kmeans-mb" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-minibatch">
+                                <label for="kmeans-mb" class="label-success"></label>
+                            </div>
+                        </div>
+
+                        <div id="conf-minibatch" class="collapse">
+                            <br/>
+                            Batch size
+                            <div class="pull-right"><input name="kmeans-mb-s" type="text"><br/></div>
+                        </div>
+                        <br/>
+                        <div>More configurations
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="kmeans-more" name="kmeans-more" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#kmeans-more-config">
+                                <label for="kmeans-more" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div id="kmeans-more-config" class="collapse">
+                            <div>
+                                kmeans_init
+                                <div class="pull-right"><input name="kmeans-init" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                kmeans_n_init
+                                <div class="pull-right"><input name="kmeans-n-init" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                kmeans_n_job
+                                <div class="pull-right"><input name="kmeans-n-job" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                kmeans_max_iter
+                                <div class="pull-right"><input name="kmeans-max-iter" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                kmeans_verbose
+                                <div class="pull-right"><input name="kmeans-verbose" type="text"><br/></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    DBSCAN:
+                    <div class="material-switch pull-right">
+                        <input id="db" name="db" type="checkbox" value="dbscan"
+                               onchange="EnDis(this.id, '#conf2', '')"/>
+                        <label for="db" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf2" class="disabledbutton">
+                    <h4>DBSCAN configuration</h4>
+                    <div class="list-group-item">
+                        <div>
+                            Minimium points
+                            <div id="dbscan-pts-min-max" class="pull-right">
+                                <input size="5" name="dbscan-min-pts-min" type="text" placeholder="Min">
+                                <input size="5" name="dbscan-min-pts-max" type="text" placeholder="Max">
+                                <input size="5" name="dbscan-min-pts-step" type="text" placeholder="Step">
+
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="dbscan-python1" name="dbscan-python1" class="hidden"
+                                       value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-dbscan-python1"
+                                       onchange="EnDis(this.id, '#dbscan-pts-min-max', 'true')"></label>
+                        </div>
+                        <div id="conf-dbscan-python1" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="dbscan-min-pts" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>
+                            Epsilon
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="dbscan-python2" name="dbscan-python2" value="True"
+                                       class="hidden"
+                                       data-toggle="collapse"
+                                       data-target="#conf-dbscan-python2"
+                                       onchange="EnDis(this.id, '#dbscan-eps-min-max', 'true')"></label>
+
+                            <div id="dbscan-eps-min-max" class="pull-right">
+                                <input size="5" name="dbscan-eps-min" type="text" placeholder="Min">
+                                <input size="5" name="dbscan-eps-max" type="text" placeholder="Max">
+                                <input size="5" name="dbscan-eps-step" type="text" placeholder="Step">
+                            </div>
+                        </div>
+
+                        <div id="conf-dbscan-python2" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="dbscan-eps" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>More configurations
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="dbscan-more" name="dbscan-more" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#dbscan-more-config">
+                                <label for="dbscan-more" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div id="dbscan-more-config" class="collapse">
+                            <div>
+                                dbscan_algorithm
+                                <div class="pull-right"><input name="dbscan-algorithm" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                dbscan_leaf_size
+                                <div class="pull-right"><input name="dbscan-leaf-size" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                dbscan_p
+                                <div class="pull-right"><input name="dbscan-p" type="text"><br/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    Agglomerative:
+                    <div class="material-switch pull-right">
+                        <input id="ag" name="ag" type="checkbox" value="agg" onchange="EnDis(this.id, '#conf3', '')"/>
+                        <label for="ag" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf3" class="disabledbutton">
+                    <h4>Agglomerative configuration</h4>
+                    <div class="list-group-item">
+                        <div>
+                            Number of clusters
+                            <div id="agg-k-min-max" class="pull-right">
+                                <input size="5" name="agg-k-min" type="text" placeholder="Min">
+                                <input size="5" name="agg-k-max" type="text" placeholder="Max">
+                                <input size="5" name="agg-k-step" type="text" placeholder="Step">
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="agg-python" name="agg-python" class="hidden" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-agg-python"
+                                       onchange="EnDis(this.id, '#agg-k-min-max', 'true')"></label>
+                        </div>
+                        <div id="conf-agg-python" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="agg-k" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>
+                            Linkage
+                            <select name="agg-link" class="selectpicker pull-right" data-width="133px">
+                                <option>ward</option>
+                                <option>Average</option>
+                                <option>Complete</option>
+                            </select>
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="firsthr">
+
+        <div id="Vectorizer" class="row mobmid">
+            <h3>Vectorizing algorithms</h3>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    Doc2vec
+                    <div class="material-switch pull-right">
+                        <input id="doc2vec" name="doc2vec" type="checkbox" value="doc2vec"
+                               onchange="EnDis(this.id, '#conf-doc2vec', '')"/>
+                        <label for="doc2vec" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf-doc2vec" class="disabledbutton">
+                    <h4>Doc2vec configuration</h4>
+                    <div class="list-group-item">
+                        <div>
+                            Vector size
+                            <div id="doc2vec-vs-min-max" class="pull-right">
+                                <input size="5" name="doc2vec-vs-min" type="text" placeholder="Min">
+                                <input size="5" name="doc2vec-vs-max" type="text" placeholder="Max">
+                                <input size="5" name="doc2vec-vs-step" type="text" placeholder="Step">
+
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="doc2vec-python1" name="doc2vec-python1" class="hidden"
+                                       value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-doc2vec-python1"
+                                       onchange="EnDis(this.id, '#doc2vec-vs-min-max', 'true')"></label>
+                        </div>
+                        <div id="conf-doc2vec-python1" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="doc2vec-vs" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>
+                            Window size
+                            <div id="doc2vec-ws-min-max" class="pull-right">
+                                <input size="5" name="doc2vec-ws-min" type="text" placeholder="Min">
+                                <input size="5" name="doc2vec-ws-max" type="text" placeholder="Max">
+                                <input size="5" name="doc2vec-ws-step" type="text" placeholder="Step">
+
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="doc2vec-python2" name="doc2vec-python2" class="hidden"
+                                       value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-doc2vec-python2"
+                                       onchange="EnDis(this.id, '#doc2vec-ws-min-max', 'true')"></label>
+                        </div>
+                        <div id="conf-doc2vec-python2" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="doc2vec-ws" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>More configurations
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="doc2vec-more" name="doc2vec-more" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#doc2vec-more-config">
+                                <label for="doc2vec-more" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div id="doc2vec-more-config" class="collapse">
+                            <div>
+                                doc2vec_dm
+                                <div class="pull-right"><input name="doc2vec-dm" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                doc2vec_alpha
+                                <div class="pull-right"><input name="doc2vec-alpha" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                doc2vec_min_alpha
+                                <div class="pull-right"><input name="doc2vec-min-alpha" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                doc2vec_min_count
+                                <div class="pull-right"><input name="doc2vec-min-count" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                doc2vec_iter
+                                <div class="pull-right"><input name="doc2vec-iter" type="text"><br/></div>
+                            </div>
+                            <br/>
+                            <div>
+                                doc2vec_negative
+                                <div class="pull-right"><input name="doc2vec-negative" type="text"><br/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    TFIDF
+                    <div class="material-switch pull-right">
+                        <input id="tfidf" name="tfidf" type="checkbox" value="tfidf"
+                               onchange="EnDis(this.id, '#conf-tfidf', '')"/>
+                        <label for="tfidf" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf-tfidf" class="disabledbutton">
+                    <h4>TFIDF configuration</h4>
+                    <div class="list-group-item">
+                        <div>
+                            Vector size
+                            <div id="tfidf-vs-min-max" class="pull-right">
+                                <input size="5" name="tfidf-vs-min" type="text" placeholder="Min">
+                                <input size="5" name="tfidf-vs-max" type="text" placeholder="Max">
+                                <input size="5" name="tfidf-vs-step" type="text" placeholder="Step">
+
+                            </div>
+                            <label><img class="propic-sub img-check" src="img/python.png">
+                                <input type="checkbox" id="tfidf-python" name="tfidf-python" class="hidden" value="True"
+                                       data-toggle="collapse"
+                                       data-target="#conf-tfidf-python"
+                                       onchange="EnDis(this.id, '#tfidf-vs-min-max', 'true')"></label>
+                        </div>
+                        <div id="conf-tfidf-python" class="collapse">
+                            <br/>
+                            <div>
+                                <input class="col-sm-12" name="tfidf-vs" type="text" placeholder="python like">
+                                <br/>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>Use PCA
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="pca" name="pca" value="True" data-toggle="collapse"
+                                       data-target="#conf-tfidf-pca">
+                                <label for="pca" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div id="conf-tfidf-pca" class="collapse">
+                            PCA Vector size
+                            <div class="pull-right"><input name="tfidf-vs-pca" type="text"><br/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="list-group-item">
+                    PACT
+                    <div class="material-switch pull-right disabledbutton">
+                        <input id="pact" name="pact" type="checkbox" value="pact"
+                               onchange="EnDis(this.id, '#conf-pact', '')"/>
+                        <label for="pact" class="label-success"></label>
+                    </div>
+                </div>
+                <div id="conf-pact" class="disabledbutton">
+                    <h4>PACT configuration</h4>
+                    <div class="list-group-item">
+                        <div>Use P feature
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="pf" name="pact-p" value="True" data-toggle="collapse">
+                                <label for="pf" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>Use A feature
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="af" name="pact-a" value="True" data-toggle="collapse">
+                                <label for="pf" class="label-success"></label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div>Use C feature
+                            <div class="material-switch pull-right">
+                                <input type="checkbox" id="cf" name="pact-c" value="True" data-toggle="collapse">
+                                <label for="pf" class="label-success"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="firsthr">
+
+        <div class="row mobmid">
+            <div><h3>Generated Configuration </h3></div>
+            <div id="config">
+                <div id="err" class="col-sm-12">
+                    <div class="list-group-item nb" id="err-config">Please select you parameters</div>
+                </div>
+                <div id="config-main" class="col-sm-4">
+                    <br/>
+                    <label for="config-main-content">Main config</label><textarea id="config-main-content"
+                                                                                  class="list-group-item"
+                                                                                  rows="4"></textarea>
+                    <br/>
+                    <div id="config-main-" class="col-sm-5"></div>
+                    <div id="script-main-" class="col-sm-5"></div>
+                </div>
+
+                <div id="config-more" class="col-sm-4">
+                    <br/>
+                    <label for="config-more-content">More config</label><textarea id="config-more-content"
+                                                                                  class="list-group-item"
+                                                                                  rows="4"></textarea>
+                    <br/>
+                    <div id="config-more-" class="col-sm-5"></div>
+                    <div id="script-more-" class="col-sm-5"></div>
+
+                </div>
+            </div>
+
+            <div id="script" class="col-sm-4">
+                <br/>
+                <label for="script-content">Browse to the CREXD folder and run : </label><textarea id="script-content"
+                                                                                                   class="list-group-item"
+                                                                                                   rows="4"></textarea>
+                <br/>
+                <div id="script-" class="col-sm-12">
+                </div>
+            </div>
+        </div>
+
+        <hr class="firsthr">
+
+        <div class="row mobmid">
+            <div class="col-sm-9"></div>
+            <div id="validate" class="col-sm-2 dl-share">
+                <input name="val" id="val" class="a2a_dd btn btn-success" type="button" onclick="create_crexd_config()"
+                       value="Generate configuration file"/>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+<footer class="text-center">
+    | <a href="mailto:project.crowd.help@gmail.com">Email</a> |
+    <a href="https://github.com/TarekAwwad/Project_Crowd" target="_blank">Github</a> |
+    <a href="https://github.com/TarekAwwad/Project_Crowd" target="_blank">Help</a> |
+    <p>private access only</p>
+</footer>
+
+</body>
+
+</html>
