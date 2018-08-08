@@ -33,17 +33,19 @@ hr {
 }
 
 h1 {
-    font-size: 2em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: #000;
-    margin: 0;
-}
+     font-size: 2em;
+     font-weight: bolder;
+     text-transform: uppercase;
+     color: #000;
+     margin: 0;
+ }
+
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     background: #fcfcfc;
-    padding: 10px;
+    padding: 2px;
+    margin: 0;
 }
 
 h3 {
@@ -240,4 +242,42 @@ textarea {
 
 .title {
     text-align: center;
+}
+
+.h1-mod{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #000;
+    margin: 0;
+}
+
+.code{
+    font-family: "Courier New";
+}
+
+.alert-info{
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+/* Better styles for embedding GitHub Gists */
+.gist{font-size:10px;line-height:10px;margin-bottom:20px;width:100%}
+.gist pre{font-family:Menlo,Monaco, 'Alegreya Sans', 'Bitstream Vera Sans Mono','Courier New',monospace !important}
+.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:10px !important}
+.gist-meta a{color:#26a !important;text-decoration:none}
+.gist-meta a:hover{color:#0e4071 !important}
+
+
+
+.picround {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #999999;
+    /*object-position: 0 0;*/
 }

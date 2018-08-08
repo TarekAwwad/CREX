@@ -663,12 +663,37 @@ function create_fields(type) {
 
 // Copy to clipboard
 function copyToCB(id) {
+
     // get the config text field
     var copyText = document.getElementById('config-' + id.split('-')[1] + '-content');
     // select text
     copyText.select();
     // copy text
     document.execCommand("Copy");
+}
+
+// Copy to clipboard
+function copyToCBDiv(id) {
+
+    // get the config text field
+    var copyText = document.getElementById('config-' + id.split('-')[1] + '-content');
+
+    // select text stupid work around
+    temp = document.createElement('textarea');
+    copyText.appendChild(temp);
+    temp.innerText = copyText.innerText;
+    temp.select();
+
+    // copy text
+    document.execCommand("Copy");
+    copyText.removeChild(temp);
+    not = document.getElementById("notification");
+    not.innerHTML = '<div class="alert alert-info fade in title">Copied</div>';
+    window.setTimeout(function() {
+        $(".alert").fadeTo(500, 0).slideUp(500, function(){
+            $(this).remove();
+        });
+    }, 1000);
 }
 
 // Download file : adapted from https://tinyurl.com/y7tlbzhs

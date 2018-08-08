@@ -7,7 +7,7 @@
     <!-- ===========================
     SITE TITLE
     =========================== -->
-    <title>Project Crowd - Configuration Panel</title>
+    <title>CREX - Configuration Panel</title>
     <!-- ===========================
     FAVICONS
     =========================== -->
@@ -59,26 +59,12 @@
         }
 
 
-
-
-
-
-
-
-
     </script>
     <script>
         function changeAction(cb_id) {
             console.log(document.getElementById(cb_id).value)
             document.getElementById('main').action = document.getElementById(cb_id).value;
         }
-
-
-
-
-
-
-
 
 
     </script>
@@ -89,52 +75,71 @@
 
 <div class="container">
     <div id="header" class="row">
-        <div class="col-sm-1">
-            <img class="propic" src="img/logo.png">
+
+        <!--<div class="col-sm-5  title"></div>-->
+        <div class="title h1-mod">
+            <!--<img class="propic" src="img/logo.png"><br/>-->
+            People
         </div>
-        <div class="col-sm-1">
-            <h1>Project </h1>
-            <h1>Crowd </h1>
-        </div>
+        <!--<div class="col-sm-5  title"></div>-->
     </div>
-    <hr class="firsthr">
+    <br/>
 
     <form id="main" method="get">
-        <div id="general" class="row mobmid">
+        <div id="description" class="row mobmid">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 title">
+                <div class="abstract title">
 
-            <div class="title"><h3>Please pick a tool to configure</h3></div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <hr class="firsthr">
+        <div id="tools" class="row mobmid">
+
+            <div class="title"><h3>Pick a tool to configure</h3></div>
             <br/>
             <br/>
-            <div class="col-sm-12">
-                <div id="custom-config">
-                    <div class="col-sm-3"></div>
+            <div class="col-sm-12 title">
+                <div>
+                    <div class="col-sm-4"></div>
                     <div class="col-sm-2">
-                        <div class="list-group-item">
-                            <a href="CREX-D.html"><img class="propic" src="img/logo-CREXD.png"></a>
-                        </div>
+                        <a href="CREX-D.html"><img class="picround" src="img/logo-CREXD.png"></a>
                         <div class="title"> CREX-D</div>
                     </div>
-                    <div class="col-sm-2"></div>
                     <div class="col-sm-2">
-                        <div class="list-group-item">
-                            <a href="CREX-C.html"><img class="propic" src="img/logo-CREXC.png"></a>
-                        </div>
+                            <a href="CREX-C.html"><img class="picround" src="img/logo-CREXC.png"></a>
                         <div class="title"> CREX-C</div>
                     </div>
-                    <div class="col-sm-3"></div>
+                    <div class="col-sm-4"></div>
+                </div>
+
+                <div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-2">
+                            <a href="CREX-C.html"><img class="picround" src="img/logo-CREXC.png"></a>
+                        <div class="title"> CREX-C</div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="CREX-C.html"><img class="picround" src="img/logo-CREXC.png"></a>
+                        <div class="title"> CREX-C</div>
+                    </div>
+                    <div class="col-sm-4"></div>
                 </div>
             </div>
         </div>
-</div>
-</form>
+        <hr/>
 
+    </form>
 </div>
+
 
 <footer class="text-center">
     | <a href="mailto:project.crowd.help@gmail.com">Email</a> |
-    <a href="https://github.com/TarekAwwad/Project_Crowd" target="_blank">Github</a> |
-    <a href="https://github.com/TarekAwwad/Project_Crowd" target="_blank">Help</a> |
-    <p>private access only</p>
+    <a href="https://github.com/Project-Crowd/CREX" target="_blank">Github</a> |
+    <a href="help.html" target="_blank">Help</a> |
+    <a href="people.html" target="_blank">People</a> |
 </footer>
 
 </body>
