@@ -59,9 +59,9 @@ CREX
 
 
 ## Tutorial
-To configure the modules of CREX a web configuration panel is provided here [CREX configuration panel](https://perso.liris.cnrs.fr/tarek.awwad/UI/)
+To configure the modules of CREX a web configuration panel is provided here [CREX configuration panel](https://project-crowd.eu/)
 ### CREXD
-**Step 1: Configure -** CREXD consists of standalone modules. They can be used together or separately to achieve different clustering, vectorizing, sampling and task selection steps. In order to use one or more module of CREX at a time, the [CREXD configuration panel](https://perso.liris.cnrs.fr/tarek.awwad/UI/CREX-D.html) can be used.  
+**Step 1: Configure -** CREXD consists of standalone modules. They can be used together or separately to achieve different clustering, vectorizing, sampling and task selection steps. In order to use one or more module of CREX at a time, the [CREXD configuration panel](https://project-crowd.eu/CREX-D.html) can be used.  
 
 Here is a list of the configurable parameters of CREXD:
 
@@ -133,12 +133,12 @@ doc2vec_negative|INTEGER
 The configuration panel allows you to download 2 configuration files : main_config and more_config. After downloading these file launch the following command in your terminal in order to launch CREXD:
 
 ```
-> python3 CREX_D.py [PATH/TO/]main_config [PATH/TO/]more_config
+> python3 CREX_D.py [PATH/TO/]main_sconfig [PATH/TO/]more_config
 ```
 
 ### CREXC
 **Step 1: Run -**
-CREXC allows to format your raw data csv file to be used by the campaign site. In order to structure these raw data, use the [CREXC configuration panel](https://perso.liris.cnrs.fr/tarek.awwad/UI/CREX-C.html). It consists of a configuration generation tool that takes the users data description and generate a structured output of them.
+CREXC allows to format your raw data csv file to be used by the campaign site. In order to structure these raw data, use the [CREXC configuration panel](http://project-crowd.eu/CREX-C.html). It consists of a configuration generation tool that takes the users data description and generate a structured output of them.
 
 **Step 2: Run -**
 The configuration panel allows you to download 2 configuration files : main_config and more_config. After downloading these file launch the following command in your terminal in order to launch CREXD:

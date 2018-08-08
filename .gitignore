@@ -1,0 +1,8 @@
+
+*.iml
+*.xml
+CREXD/.DS_Store
+CREXUI/.DS_Store
+get-pip.py
+get-pip3.py
+UI/.DS_Store
