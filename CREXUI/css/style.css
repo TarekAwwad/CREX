@@ -109,7 +109,7 @@ li {
 
 .abstract {
     text-align: justify;
-    color: darkgray;
+    color: #3e3f40;
     margin-bottom: 15px;
 }
 
@@ -280,4 +280,12 @@ textarea {
     border-width: thin;
     border-color: #999999;
     /*object-position: 0 0;*/
+}
+
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
 }
