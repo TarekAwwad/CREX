@@ -150,8 +150,7 @@ The configuration panel allows you to download 2 configuration files : main_conf
 
 Temporarily private Figshare, DOI and reference:
 - URL: https://figshare.com/s/ca41a59f73c092385fc3
-- DOI: https://doi.org/10.6084/m9.figshare.6109559 (Inactive until resource is made public)
 - Reference to cite:
 	- [1] Tarek Awwad, Nadia Bennani, Veronika Rehn-Sonigo, Lionel Brunie and Harald Kosch CrowdED and CREX : Towards 		Easy Crowdsourcing Quality Control Evaluation ADBIS 2019, Bled - Slovenia
 
-	- [2]Tarek AWWAD.. 2018. CREX : CReate, Enrich, eXtend for crowdsourcing evaluation datasets. 		DOI:https://doi.org/10.6084/m9.figshare.6109559
+	- [2]Tarek AWWAD.. 2018. CREX : CReate, Enrich, eXtend for crowdsourcing evaluation datasets. 		
